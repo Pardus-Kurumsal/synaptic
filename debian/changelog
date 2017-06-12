@@ -1,3 +1,13 @@
+synaptic (0.84.2pardus1) unstable; urgency=medium
+
+  [ Cihangir Akturk ]
+  * debian/control: Change build dependencies
+  * debian/patches: add list file for pardus dist
+  * debian/rules: disable dpkg progress
+  * debian/control: do not install software-properties
+
+ -- Cihangir Akturk <cakturk@pardus.org.tr>  Mon, 12 Jun 2017 11:31:05 +0300
+
 synaptic (0.84.2) unstable; urgency=medium
 
   [ Simon McVittie ]
