@@ -2174,9 +2174,11 @@ void RGMainWindow::cbShowSourcesWindow(GtkWidget *self, void *data)
    bool Changed = false;
    bool ForceReload = _config->FindB("Synaptic::UpdateAfterSrcChange",false);
    
-   if(!g_file_test("/usr/bin/software-properties-gtk", 
-		   G_FILE_TEST_IS_EXECUTABLE) 
-      || _config->FindB("Synaptic::dontUseGnomeSoftwareProperties", false)) 
+   /* if(!g_file_test("/usr/bin/software-properties-gtk", */ 
+		   /* G_FILE_TEST_IS_EXECUTABLE) */ 
+   /*    || _config->FindB("Synaptic::dontUseGnomeSoftwareProperties", false)) */ 
+   /* Always use built-in repositories window */
+   if (1)
    {
       RGRepositoryEditor w(me);
       Changed = w.Run();
