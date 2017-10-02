@@ -2,22 +2,23 @@
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
 # This file is distributed under the same license as the synaptic package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+# Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: synaptic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-11 10:17+0100\n"
-"PO-Revision-Date: 2013-04-09 17:11+0000\n"
-"Last-Translator: Volkan Gezer <Unknown>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2017-10-02 09:47+0300\n"
+"Last-Translator: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>\n"
+"Language-Team: Türkçe <>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Launchpad-Export-Date: 2013-04-19 04:34+0000\n"
-"X-Generator: Launchpad (build 16567)\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. TRANSLATORS: Alias for the Debian package section "admin"
 #: ../common/sections_trans.cc:12
@@ -1613,7 +1614,7 @@ msgstr "İfade bulundu, eşleşen girdiler için soldaki listeyi gözden geçiri
 #: ../gtk/gtkbuilder/window_logview.ui.h:2
 #: ../gtk/gtkbuilder/dialog_task_descr.ui.h:1
 msgid "_Close"
-msgstr ""
+msgstr "Ka_pat"
 
 #: ../gtk/rgpkgdetails.cc:220
 #, c-format
@@ -1846,13 +1847,12 @@ msgstr "Değişiklikleri aç"
 #: ../gtk/gtkbuilder/dialog_authentication.ui.h:2
 #: ../gtk/gtkbuilder/dialog_disc_label.ui.h:1
 #: ../gtk/gtkbuilder/dialog_new_repositroy.ui.h:6
-#, fuzzy
 msgid "_Cancel"
-msgstr "İptal"
+msgstr "_İptal Et"
 
 #: ../gtk/rgmainwindow.cc:2029 ../gtk/rgmainwindow.cc:3408
 msgid "_Open"
-msgstr ""
+msgstr "_Aç"
 
 #: ../gtk/rgmainwindow.cc:2076 ../gtk/rgmainwindow.cc:2673
 #: ../gtk/rgmainwindow.cc:2855 ../gtk/rgmainwindow.cc:3040
@@ -1866,7 +1866,7 @@ msgstr "Değişiklikleri kaydet"
 
 #: ../gtk/rgmainwindow.cc:2099 ../gtk/rgmainwindow.cc:3381
 msgid "_Save"
-msgstr ""
+msgstr "_Kaydet"
 
 #: ../gtk/rgmainwindow.cc:2102
 msgid "Save full state, not only changes"
@@ -2431,9 +2431,8 @@ msgid "_Settings"
 msgstr "_Ayarlar"
 
 #: ../gtk/gtkbuilder/window_main.ui.h:38
-#, fuzzy
 msgid "_Preferences"
-msgstr "Tercihler"
+msgstr "_Tercihler"
 
 #: ../gtk/gtkbuilder/window_main.ui.h:39
 msgid "_Repositories"
@@ -3056,9 +3055,8 @@ msgstr "Buradaki sürümleri tercih et: "
 #: ../gtk/gtkbuilder/window_preferences.ui.h:75
 #: ../gtk/gtkbuilder/window_setopt.ui.h:2
 #: ../gtk/gtkbuilder/window_summary.ui.h:3
-#, fuzzy
 msgid "_Apply"
-msgstr "Uygula"
+msgstr "_Uygula"
 
 #: ../gtk/gtkbuilder/window_preferences.ui.h:77
 #: ../gtk/gtkbuilder/window_disc_name.ui.h:5
@@ -3066,9 +3064,8 @@ msgstr "Uygula"
 #: ../gtk/gtkbuilder/window_repositories.ui.h:11
 #: ../gtk/gtkbuilder/window_tasks.ui.h:6
 #: ../gtk/gtkbuilder/dialog_authentication.ui.h:3
-#, fuzzy
 msgid "_OK"
-msgstr "Tamam"
+msgstr "_Tamam"
 
 #: ../gtk/gtkbuilder/window_disc_name.ui.h:1
 msgid ""
@@ -3149,12 +3146,12 @@ msgstr ""
 #: ../gtk/gtkbuilder/window_filters.ui.h:5
 #: ../gtk/gtkbuilder/window_repositories.ui.h:8
 msgid "_New"
-msgstr ""
+msgstr "_Yeni"
 
 #: ../gtk/gtkbuilder/window_filters.ui.h:6
 #: ../gtk/gtkbuilder/window_repositories.ui.h:9
 msgid "_Delete"
-msgstr ""
+msgstr "_Sil"
 
 #. TRANSLATORS: this is a label embedded in the "Status" notebook tab, so it describes the "Current [status]"
 #: ../gtk/gtkbuilder/window_filters.ui.h:8
@@ -3331,12 +3328,11 @@ msgstr "Etiketler"
 
 #: ../gtk/gtkbuilder/window_repositories.ui.h:2
 msgid "_Up"
-msgstr ""
+msgstr "_Yukarı"
 
 #: ../gtk/gtkbuilder/window_repositories.ui.h:3
-#, fuzzy
 msgid "_Down"
-msgstr "İndir"
+msgstr "_Aşağı"
 
 #: ../gtk/gtkbuilder/window_repositories.ui.h:4
 msgid "URI:"
@@ -3545,9 +3541,8 @@ msgid "History of installed, upgraded and removed software packages."
 msgstr "Kurulmuş, yükseltilmiş ve kaldırılmış yazılım paketleri geçmişi."
 
 #: ../gtk/gtkbuilder/window_logview.ui.h:4
-#, fuzzy
 msgid "_Find"
-msgstr "Bul"
+msgstr "_Bul"
 
 #: ../gtk/gtkbuilder/dialog_quit.ui.h:3
 msgid ""
