@@ -1,10 +1,10 @@
 Source: synaptic
 Section: admin
 Priority: optional
-Maintainer: Michael Vogt <mvo@debian.org>
-Build-Depends: debhelper (>= 8), libapt-pkg-dev (>= 0.8.16~exp12), gettext, libgtk-3-dev, libvte-dev, rarian-compat, intltool, xmlto, libsm-dev , sharutils, dpatch, lsb-release, dpkg (>= 1.13.9), libept-dev (>= 1.0.5), dh-autoreconf
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>= 8), libapt-pkg-dev (>= 0.8.16~exp12), gettext, libgtk-3-dev, libvte-dev, rarian-compat, intltool, xmlto, libsm-dev , sharutils, dpatch, lsb-release, dpkg (>= 1.13.9), libept-dev (>= 1.0.5), dh-autoreconf, libvte-2.91-dev
 Build-Conflicts: librpm-dev
-Standards-Version: 3.7.2.2
+Standards-Version: 3.9.8
 Vcs-Git: https://github.com/mvo5/synaptic
 Homepage: http://www.nongnu.org/synaptic/
 
